@@ -1,0 +1,5 @@
+offset main = offset section(text) + (adress(main) - adress(text))
+
+offset main= 0003b0+ (08048464- 080483b0)= 464(hex)
+
+main size= 175 (decimal)
